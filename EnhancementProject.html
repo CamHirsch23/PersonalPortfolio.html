@@ -46,6 +46,7 @@
         }
         section {
             margin-bottom: 20px;
+            text-align: center; /* Center the text within the section */
         }
         a {
             color: #007bff;
@@ -56,9 +57,14 @@
             color: #ff0000;
         }
         footer {
-            position: fixed;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative; /* Change to relative if you don't want it to be fixed */
             bottom: 0;
             width: 100%;
+            clear: both; /* This ensures that the footer is below all content */
         }
         /* Responsive Design and Effects */
         @media (max-width: 768px) {
@@ -100,6 +106,10 @@
         }
         .button:active {
             transform: scale(1.1); /* Visual feedback for button click */
+        }
+        /* Ensure main content does not overlap with footer */
+        main {
+            padding-bottom: 60px; /* Add padding to the bottom of the main content */
         }
     </style>
 </head>
