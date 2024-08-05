@@ -1,24 +1,136 @@
 /* General Styles */
 body {
-    font-family: 'Open Sans', sans-serif; /* Changed to Open Sans for a clean look */
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0f7f4; /* Soft green background for a calming effect */
-    color: #2a2a2a; /* Slightly softer than pure black for better readability */
+    background-color: #f0f7f4;
+    color: #2a2a2a;
 }
+
 header, footer {
-    background-color: #2a2a2a; /* Dark grey for contrast */
+    background-color: #2a2a2a;
     color: #ffffff;
     text-align: center;
     padding: 1em 0;
 }
+
 h1 {
-    font-family: 'Merriweather', serif; /* Serif font for the main heading */
-    font-size: 2.5em; /* Larger font size for the main heading */
-    color: #4a7c59; /* Dark green for elegance and professionalism */
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    color: #4a7c59;
     margin: 0.67em 0;
 }
+
 h2 {
-    font-family: 'Merriweather', serif; /* Consistent serif font for subheadings */
-    color: #3e6b48; /*
+    font-family: 'Merriweather', serif;
+    color: #3e6b48;
+    margin: 0.83em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #a8d0c1;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+a {
+    color: #4a7c59;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3e6b48;
+}
+
+footer {
+    background-color: #2a2a2a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+/* Responsive Design and Effects */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}
+
+/* Advanced Styling Techniques */
+.rounded-button {
+    border-radius: 20px;
+}
+
+.image-effect:hover {
+    transform: scale(1.1);
+}
+
+/* Typography and Readability Enhancements */
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Contact Page */
+.contact-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.social-media-link {
+    color: #4a7c59;
+    font-weight: bold;
+}
+
+/* Interactive Styling */
+.button {
+    padding: 10px 20px;
+    background-color: #a8d0c1;
+    color: #2a2a2a;
+    transition: transform 0.2s ease;
+}
+
+.button:active {
+    transform: scale(1.1);
+}
+
+/* Ensure main content does not overlap with footer */
+main {
+    padding-bottom: 60px;
+}
