@@ -1,0 +1,24 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* Changed to Open Sans for a clean look */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7f4; /* Soft green background for a calming effect */
+    color: #2a2a2a; /* Slightly softer than pure black for better readability */
+}
+header, footer {
+    background-color: #2a2a2a; /* Dark grey for contrast */
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+h1 {
+    font-family: 'Merriweather', serif; /* Serif font for the main heading */
+    font-size: 2.5em; /* Larger font size for the main heading */
+    color: #4a7c59; /* Dark green for elegance and professionalism */
+    margin: 0.67em 0;
+}
+h2 {
+    font-family: 'Merriweather', serif; /* Consistent serif font for subheadings */
+    color: #3e6b48; /*
